@@ -1,0 +1,258 @@
+.nav_webpage {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(69, 87, 59);
+    font-size: 0px;
+}
+
+.nav_container {
+    display: inline-block;
+    width: 1200px;
+    height: 100px;
+    /* background-color: rgba(123, 123, 0, 0.4); */
+    box-sizing: border-box;
+}
+
+.nav_container * {
+    float: left;
+}
+
+.logo_box {
+    width: 20%;
+    height: 80%;
+    top: 10%;
+    /* background-color: rgba(123, 67, 123, 0.4); */
+    vertical-align: middle;
+    margin: auto 0;
+}
+
+.logo {
+    width: 70%;
+    height: 70%;
+    /* left: 10%; */
+    top: 15%;
+}
+
+.title_box {
+    width: 60%;
+    height: 100%;
+    /* background-color: rgba(34, 123, 67, 0.4); */
+}
+
+.top_titles {
+    height: 70%;
+    width: 100%;
+    /* background-color: rgba(145, 234, 12, 0.4); */
+}
+
+.top_titles h1 {
+    /* background-color: rgba(200, 0, 200, 0.4); */
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+    color: #eee;
+    line-height: 91px;
+}
+
+.top_titles h1 span {
+    font-size: 36pt;
+    letter-spacing: 6px;
+}
+
+.top_titles h2 {
+    /* background-color: rgba(200, 200, 0, 0.4); */
+    display: inline-block;
+    height: 100%;
+    width: 55%;
+    color: #eee;
+}
+
+@font-face {
+    font-family: "hand-writing1";
+    src: url("../../font/zhongshan.ttf");
+}
+
+.tip_outer, .tip_inner, .tip_end {
+    font-family: "hand-writing1";
+    font-size: 16pt;
+    text-align: right;
+    line-height: 124px;
+}
+
+.tip_outer {
+    width: 100%;
+    text-align: right;
+}
+
+.tip_inner {
+    float: right;
+    letter-spacing: 2px;
+}
+
+.tip_end {
+    float: right;
+}
+
+.bottom_phrases {
+    width: 100%;
+    height: 30%;
+    /* background-color: rgba(12, 45, 67, 0.4); */
+    line-height: 30px;
+}
+
+.content_phrase_box {
+    width: 100%;
+    height: 100%;
+}
+
+.content_phrase {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #aaa;
+    /* background-color: rgba(67, 123, 98, 0.4); */
+}
+
+.subtitle_box {
+    width: 20%;
+    height: 100%;
+    /* background-color: rgba(45, 255, 67, 0.4); */
+}
+
+.top_2, .bottom_2 {
+    line-height: 30px;
+    width: 80%;
+    left: 10%;
+    top: 2.5%;
+    height: 30%;
+    /* background-color: rgba(87, 12, 98, 0.4); */
+}
+
+.bottom_2 {
+    top: 5%;
+    /* background-color: rgba(87, 12, 198, 0.4); */
+}
+
+.top_2 span, .bottom_2 span {
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+    /* background-color: rgba(123, 56, 198, 0.4); */
+    text-align: center;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #ddd;
+    letter-spacing: 1px;
+}
+
+.search_box {
+    width: 80%;
+    height: 30%;
+    top: 7.5%;
+    left: 10%;
+    /* background-color: rgba(87, 12, 98, 0.4); */
+}
+
+.search_text {
+    border-width: 0;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    display: inline-block;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 10pt;
+    padding-left: 10px;
+}
+
+.search_btn_box {
+    display: inline-block;
+    height: 71%;
+    top: 14.5%;
+    background-color: rgba(33, 34, 128, 0.4);
+    /* border-radius: 20px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.search_btn {
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+.link_title_container {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: rgba(187, 97, 123, 0.4); */
+    font-size: 0;
+}
+
+.link_title {
+    display: inline-block;
+    /* background-color: rgba(23, 123, 65, 0.4); */
+    width: 8%;
+    text-align: center;
+    height: 100%;
+    line-height: 30px;
+    left: 1%;
+}
+
+.link_title:nth-child(2) {
+    left: 2%;
+}
+
+.link_title:nth-child(3) {
+    left: 3%;
+}
+
+.link_title:nth-child(4) {
+    left: 4%;
+}
+
+.link_title:nth-child(5) {
+    left: 5%;
+}
+
+.link_title:nth-child(6) {
+    left: 6%;
+}
+
+.link_title:nth-child(7) {
+    left: 7%;
+}
+
+.link_title:nth-child(8) {
+    left: 8%;
+}
+
+.link_title:nth-child(9) {
+    left: 9%;
+}
+
+.link_title:nth-child(10) {
+    left: 10%;
+}
+
+.link_title:nth-child(11) {
+    left: 11%;
+}
+
+.link_title:nth-child(12) {
+    left: 12%;
+}
+
+.link_title a {
+    color: #333;
+}
+
+.link_title a:hover {
+    color: #e00;
+}

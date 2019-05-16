@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: "微软雅黑";
+    font-size: 12pt;
+    /* font-weight: normal; */
+    font-weight: lighter;
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    width: 100%;
+    font-size: 0;
+    background-color: rgba(228, 250, 250, 0.3);
+}
+
+body {
+    display: block;
+    width: 100%;
+    /* background-color: rgba(250, 238, 228, 0.87); */
+}
+
+.topnav {
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(69, 87, 59);
+    font-size: 0px;
+}
+
+.scolars {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    background-color: rgb(236, 246, 253);
+    /* background-color: rgba(94, 184, 52, 0.89); */
+}
+
+.copyright {
+    float: left;
+    width: 100%;
+    font-size: 0px;
+    margin-top: 30px;
+    background-color: rgb(34, 44, 29);
+}

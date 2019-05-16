@@ -1,0 +1,53 @@
+.copyright_container {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: left;
+}
+
+.col1_box, .col2_box, .col3_box {
+    /* display: inline-block; */
+    float: left;
+    font-size: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.col3_box {
+    width: 25%;
+}
+
+.copyright_label {
+    height: 30px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    color: #eee;
+    font-size: 9pt;
+    line-height: 30px;
+    /* background-color: red; */
+}
+
+.forward_box {
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    /* background-color: rgba(27, 194, 50, 0.4); */
+    font-size: 0;
+}
+
+.icon_box {
+    /* display: inline-block; */
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.icon_box img {
+    width: 50%;
+    left: 25%;
+    height: 50%;
+    top: 25%;
+    cursor: pointer;
+}

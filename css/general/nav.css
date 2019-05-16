@@ -1,0 +1,177 @@
+.nax-box {
+    width: 100%;
+    font-size: 0;
+    background-color: rgb(69, 87, 59);
+}
+
+.nav-container {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 140px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+/* *************************************************** */
+
+.top-title-box {
+    width: 100%;
+    height: 100px;
+    /* background-color: rgba(70, 16, 16, 0.4); */
+    font-size: 0;
+}
+
+.split-line {
+    display: block;
+    width: 100%;
+}
+
+.bottom-link-box {
+    width: 90%;
+    left: 5%;
+    height: 35px;
+    /* background-color: rgba(41, 65, 13, 0.4); */
+}
+
+/* *************************************************** */
+
+.logo-box {
+    float: left;
+    width: 15%;
+    /* background-color: rgba(109, 179, 29, 0.801); */
+}
+
+.logo-box img {
+    width: 100%;
+}
+
+.thinktank-box {
+    float: left;
+    width: 70%;
+    height: 100%;
+    /* background-color: rgba(29, 69, 179, 0.801); */
+}
+
+@font-face {
+    font-family: "hand-writing1";
+    src: url("./zhongshan.ttf");
+}
+
+@font-face {
+    font-family: "hand-writing2";
+    src: url("./yizhi.ttf");
+}
+
+@font-face {
+    font-family: "hand-writing3";
+    src: url("./zihun.ttf");
+}
+
+.thinktank {
+    display: inline-block;
+    width: 80%;
+    left: 10%;
+    height: 100%;
+    line-height: 100px;
+    font-size: 44pt;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #fff;
+    /* font-family: 'hand-writing2'; */
+    /* background-color: rgba(179, 89, 29, 0.801); */
+    font-weight: lighter;
+}
+
+.breif-intro-box {
+    float: left;
+    width: 15%;
+    height: 100%;
+    /* background-color: rgba(30, 116, 42, 0.801); */
+    font-size: 0;
+}
+
+.breif-intro {
+    /* display: inline-block; */
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 30%;
+    top: 20%;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: lighter;
+    /* background-color: rgba(90, 116, 30, 0.801); */
+    color: rgb(238, 201, 189);
+    font-size: 11pt;
+}
+
+.link_title_container {
+    width: 100%;
+    font-size: 0;
+}
+
+.link_title {
+    /* display: inline-block; */
+    float: left;
+    width: 10%;
+    height: 100%;
+    line-height: 35px;
+    text-align: center;
+    /* background-color: rgba(90, 116, 30, 0.801); */
+}
+
+.link_title a {
+    font-size: 10pt;
+    letter-spacing: 1px;
+    width: 80%;
+    height: 100%;
+    /* display: inline-block; */
+    float: left;
+    background-color: rgba(58, 73, 50, 0.4);
+    border-radius: 30px;
+}
+
+.link_title a:hover {
+    background-color: rgba(116, 139, 103, 0.9);
+    color: rgb(107, 51, 51);
+    font-weight: bold;
+}
+
+/* ***************************************** */
+
+.bottom-link-box ul li {
+    /* display: inline-block; */
+    float: left;
+    width: 10%;
+    height: 100%;
+    line-height: 35px;
+    /* text-align: center; */
+    font-size: 10pt;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.bottom-link-box ul li a {
+    letter-spacing: 1px;
+    width: 80%;
+    left: 10%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(58, 73, 50, 0.4);
+    border-radius: 30px;
+}
+
+.bottom-link-box ul li a span {
+    font-size: 10pt;
+    color: #fff;
+}
+
+.bottom-link-box ul li:hover a {
+    background-color: rgba(116, 139, 103, 0.9);
+    color: rgb(107, 51, 51);
+    font-weight: bold;
+}
+
+.bottom-link-box ul li:hover a span {
+    color: rgb(107, 51, 51);
+    font-weight: bold;
+}

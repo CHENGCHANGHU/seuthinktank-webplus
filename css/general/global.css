@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* float: left; */
+    font-family: "微软雅黑";
+    /* font-size: 12pt; */
+    font-weight: normal;
+    /* font-size: 0; */
+    /* -webkit-text-size-adjust: none; */
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    /* color: #fff; */
+    display: inline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    display: inline-block;
+    width: 100%;
+}
+
+.clearfloat:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfloat {
+    display: block;
+    *zoom: 1;
+}

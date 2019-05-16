@@ -1,0 +1,24 @@
+.cycle-imgs-box {
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    /* background-color: rgba(200, 242, 248, 0.4); */
+    margin-top: 10px;
+}
+
+.thinktank-1, .thinktank-2, .thinktank-3, .thinktank-4, .thinktank-5, .scholar-cooperation-box, .partner-box {
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    /* margin-top: 20px; */
+    /* box-sizing: border-box; */
+    /* padding-top: 10px;  */
+    float: left;
+}
+
+.thinktank-1 {
+    margin-top: 20px;
+}
+
+.partner-box {
+    margin-top: 20px;
+}

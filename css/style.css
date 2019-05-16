@@ -1,0 +1,237 @@
+.panel1 {
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.window1 {
+    color: #fff;
+    font-size: 20pt;
+    background-color: red;
+}
+
+.panel2 {
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.window2 {
+    color: #fff;
+    font-size: 20pt;
+    background-color: red;
+}
+
+.thinktank-1-container, .thinktank-2-container, .thinktank-3-container, .thinktank-4-container, .thinktank-5-container {
+    width: 1200px;
+    /* height: 100px; */
+    margin: 0 auto;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    font-size: 0;
+}
+
+/* ************************************************** */
+
+.activities-box, .theory-research-box, .cultural-media-research-box, .architectural-planning-box, .public-health-box {
+    /* display: inline-block; */
+    float: left;
+    width: 24%;
+    /* background-color: #F01A02; */
+    border-right: solid rgba(32, 122, 10, 0.705) 2px;
+}
+
+.media-published-box, .silkroad-box, .regional-economy-box, .cyberspace-box, .world-economy-box {
+    /* display: inline-block; */
+    float: left;
+    width: 37%;
+    left: 1%
+}
+
+.report-box, .international-box, .artificial-intelligence-box, .global-cure-box, .information-technology-box {
+    /* display: inline-block; */
+    float: left;
+    width: 37%;
+    left: 2%;
+}
+
+/* ************************************************** */
+
+.title-box {
+    width: 100%;
+    height: 60px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    font-size: 0;
+}
+
+.thinktank-2-container .title-box, .thinktank-3-container .title-box, .thinktank-4-container .title-box, .thinktank-5-container .title-box {
+    margin-top: 20px;
+}
+
+.content-title {
+    float: left;
+    width: 80%;
+    height: 100%;
+    line-height: 60px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 20pt;
+}
+
+.more {
+    float: left;
+    width: 20%;
+    height: 100%;
+    line-height: 78px;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.more a {
+    color: rgb(12, 22, 116);
+}
+
+.more a:hover {
+    color: rgb(126, 9, 9);
+    text-decoration: underline;
+}
+
+/* ************************************************** */
+
+.side-card-box {
+    width: 100%;
+    margin-top: 10px;
+    /* background-color: rgba(153, 167, 35, 0.4); */
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+
+.side-card {
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: solid #666 1px;
+}
+
+.side-card:nth-child(n+2) {
+    margin-top: 10px;
+}
+
+.side-card:nth-last-child(1) {
+    border-bottom: solid #666 0px;
+}
+
+.side-img-box {
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+
+.side-img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.side-title-box {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+}
+
+.side-title-box a {
+    font-size: 11pt;
+    font-weight: bold;
+    color: rgb(31, 30, 30);
+}
+
+.mess-box {
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 9pt;
+    color: #7C7C7C;
+    line-height: 20px;
+}
+
+.side-author, .side-time {
+    display: inline-block;
+    color: #7C7C7C;
+    font-size: 9pt;
+    height: 20px;
+    line-height: 20px;
+}
+
+/* ************************************************** */
+
+.main-card-box {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.main-card{
+    background-color: rgba(222, 230, 235, 0.4);
+}
+
+.main-img-box {
+    display: block;
+    width: 100%;
+    height: 240px;
+}
+
+.main-img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-label-box {
+    display: block;
+    width: 100%;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.label {
+    display: inline-block;
+    margin-right: 8px;
+    height: 100%;
+    line-height: 20px;
+    font-size: 9pt;
+    color: #2D797F;
+}
+
+.main-title-box {
+    display: block;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.main-title-box a {
+    color: #353535;
+    font-size: 14pt;
+    line-height: 30px;
+}
+
+.main-mess-box {
+    display: block;
+    width: 100%;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    color: #7C7C7C;
+    font-size: 9pt;
+    line-height: 20px;
+}
+
+.main-src, .main-time {
+    color: #7C7C7C;
+    font-size: 9pt;
+    line-height: 20px;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>东大战略智库</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/general/seu.jpg" rel="shortcut icon" type="image/*" />
+    <link href="css/article_content/article_content.css" rel="stylesheet" type="text/css" />
+    <!--<link href="css/article_content/copyright.css" rel="stylesheet" type="text/css" />-->
+    <link href="css/article_content/article_right.css" rel="stylesheet" type="text/css" />
+    <!--<link href="css/article_content/nav.css" rel="stylesheet" type="text/css" />-->
+    <link href="css/general/copyright.css" rel="stylesheet" type="text/css"/>
+    <link href="css/general/global.css" rel="stylesheet" type="text/css"/>
+    <link href="css/general/nav.css" rel="stylesheet" type="text/css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <!--<script type="text/javascript" src="./js/article_content/article_content.js"></script>-->
+    <script type="text/javascript" src="./js/general/nav.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div id="vue_div">
+    <!-- 导航栏 -->
+    <div class="nax-box">
+        <div class="nav-container" frag="面板01">
+            <div class="top-title-box" frag="窗口01">
+                <div class="logo-box">
+                    <img src="./images/index/logo.png" />
+                </div>
+                <div class="thinktank-box">
+                    <span class="thinktank">东南大学智库</span></div>
+                <div class="breif-intro-box">
+                    <span class="breif-intro">全球视野</span>
+                    <span class="breif-intro">中国情怀</span>
+                    <span class="breif-intro">学术研究</span>
+                    <span class="breif-intro">决策参考</span>
+                </div>
+            </div>
+            <span class="split-line"></span>
+            <div class="bottom-link-box" frag="窗口02">
+                <ul class="link_title_container" frag="窗口内容">
+                    <li class="link_title"><a href="/index.html">首页</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">智库活动</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">智库报告</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">媒体发表</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">专家学者</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">国际交流</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">欢迎加入</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">招聘实习</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">关于我们</a></li>
+                    <li class="link_title"><a href="javascript:void(0)">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%;text-align: center">
+        <div class="main_box" id="main_box">
+            <article class="left_article" >
+                <div  frag="面板2" >
+                    <div frag="窗口2" portletmode="simpleArticleAttri" class="article_title_div">
+                        <div frag="窗口内容">{标题}</div>
+                    </div>
+                </div>
+                <div class="author_info">
+                    <img src="./images/article_content/default_head_img.png" class="author_head_img">
+                    <div class="author_info_border" frag="面板3">
+                        <div class="author_name" frag="窗口3" portletmode="simpleArticleAttri">
+                            <div frag="窗口内容">{作者}</div>
+                        </div>
+                        <div class="author_company" frag="窗口4" portletmode="simpleArticleAttri">
+                            <div frag="窗口内容">{发布部门}</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="float: left;width: 100%" frag="面板32">
+                    <div style="width: 100%;float: left;height: 40px" frag="窗口32">
+                        <div style="float: left;color: #a4a4a4;font-size: 10pt;margin-top: 10px;margin-right: 15px">分享到:</div>
+                        <div frag="窗口内容"></div>
+                    </div>
+                </div>
+                <div class="article_info" frag="面板5">
+                    <div class="article_time" frag="窗口5" portletmode="simpleArticleAttri">
+                        <div frag="窗口内容">{发布时间}</div>
+                    </div>
+                    <div class="article_from" frag="窗口6" portletmode="simpleArticleAttri">
+                        来源：<div frag="窗口内容">{文章来源}</div>
+                    </div>
+                </div>
+                <!--<div class="article_key_words" frag="面板7">-->
+                <!--<span style="float: left">关键字：</span>-->
+                <!--<div id="key_words" frag="窗口7">-->
+                <!--<div frag="窗口内容">{关键字}</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <div id="article_content" style="float: left">
+                    <span  frag="面板1">
+                        <!--v-bind:class="article_font_size"-->
+                        <div frag="窗口1" portletmode="simpleArticleAttri">
+                            <div frag="窗口内容">
+                                {内容}
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div style="float: left;width: 100%;margin-top: 20px" frag="面板31">
+                    <div style="width: 100%;float: left;height: 40px" frag="窗口31">
+                        <div style="float: left;color: #a4a4a4;font-size: 10pt;margin-top: 10px;margin-right: 15px">分享到:</div>
+                        <div frag="窗口内容"></div>
+                    </div>
+                </div>
+                <div style="float: left;color: #a4a4a4;font-size: 10pt;margin-top: 5px">
+                    说明：文章的观点只代表作者观点
+                </div>
+
+                <div style="float: left;margin-top: 40px;width: 100%" >
+                    <div style="float: left;width: 100%" frag="面板10">
+                        <div style="float: left;width: 100%" frag="窗口10">
+                            <div style="font-size: 15pt;font-weight: bolder;text-align: left" frag="标题"><span frag="标题内容">作者相关</span></div>
+                            <div style="float: left;width: 100%" frag="窗口内容">
+                                <!--[InfoCycleBegin]-->
+                                <div style="float: left;width: 100%;margin-top: 10px" >
+                                    <div class="recoment_title_author">{标题}</div><div style="float: right;color: #bfbfbf">{发布时间}</div>
+                                </div>
+                                <!--[InfoCycleEnd]-->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div style="width: 100%;float:left;" frag="面板9">
+                        <div style="width: 100%;margin-top: 30px;float: left" frag="窗口9">
+                            <div style="font-size: 15pt;font-weight: bolder;text-align: left;margin-bottom: 15px" frag="标题"><span frag="标题内容">相关推荐</span></div>
+                            <div frag="窗口内容" style="width: 100%;float: left">
+                                <!--[InfoCycleBegin]-->
+                                <span class="new_now" >
+                                        <div style="float:left;width: 160px;height: 100px">{缩略图}</div>
+                                        <div style="float: left;height: 100px;width: 70%;margin-left: 10px">
+                                            <div style="position: absolute;top: 0;text-align: left;font-weight:bolder ;font-size: 16px">{标题}</div>
+                                            <div style="position: absolute;bottom: 0;text-align: left;font-size: 14px;color: #a4a4a4">{发布时间}</div>
+                                        </div>
+                                        <hr style="height: 1px;width: 100%;margin-top: 10px;border: 0;background-color: #e6e6e6;float: left;margin-bottom: 10px">
+                                    </span>
+                                <!--[InfoCycleEnd]-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+            <aside class="right_article" id="right_article">
+                <!--<div class="right_search">-->
+                <!--<input class="right_search_input_text" type="text" placeholder="请输入关键字" >-->
+                <!--<button class="right_search_button">搜索</button>-->
+                <!--</div>-->
+                <div frag="面板30" style="float:left;width: 100%">
+                    <div style="float:left;width: 100%" frag="窗口30" portletmode="simpleColumnAnchor">
+                        <hr style="width: 100%;height: 2px;float: left;background-color: #588ed4">
+                        <div class="right_title_border" >
+                            <div class="right_title" frag="窗口内容">栏目位置</div>
+                            <div class="right_more" frag="按钮" type="更多"><span frag="按钮内容">更多</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div frag="面板8" style="float:left;width: 100%">
+                    <div style="float:left;width: 100%" frag="窗口8">
+                        <div style="width: 100%" id="right_title_vue">
+                            <div frag="窗口内容" style="width: 100%;">
+                                <!--[InfoCycleBegin]-->
+                                <span class="new_now">
+                                    <div style="float:left;width: 30%;height: 60px">{缩略图}</div>
+                                    <div style="float: left;height: 60px;width: 65%;padding-left: 10px">
+                                        <div style="position: absolute;top: 0;text-align: left;font-weight:bolder ;font-size: 14px">{标题}</div>
+                                        <div style="position: absolute;bottom: 0;text-align: left;font-size: 14px;color: #a4a4a4">{发布时间}</div>
+                                    </div>
+                                </span>
+                                <!--[InfoCycleEnd]-->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="fixPara" style="float: left;width: 100%">
+                    <hr style="width: 100%;height: 2px;margin-top: 20px;float: left;background-color: #588ed4">
+                    <div class="right_title_border">
+                        <div class="right_title">专家学者</div>
+                        <div class="right_more">更多</div>
+                    </div>
+                    <div style="width: 100%" id="right_title_vue_1">
+                        <div class="sp_card"  v-for="title_object in right_author_name">
+                            <div class="sp_img_box">
+                                <img src="./images/article_content/scholar.jpg"/>
+                            </div>
+                            <span class="spd_title">{{title_object['name']}}</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+
+    <!-- 版权栏 -->
+    <div class="copyright">
+        <div class="copyright_container">
+            <div class="col1_box">
+                <span class="copyright_label">
+                    Copyright &copy; Southeast University E-mail:master@seu.edu.cn
+                </span>
+                <span class="copyright_label">
+                    苏ICP备10088665号
+                </span>
+                <span class="copyright_label">
+                    公安备案号：32010202010062
+                </span>
+            </div>
+
+
+
+            <div class="forward_box">
+                <div class="icon_box">
+                    <img src="./images/index/blog.png" />
+                </div>
+
+                <div class="icon_box">
+                    <img src="./images/index/wechat.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./js/article_content/article_conten_vue.js"></script>
+</html>
