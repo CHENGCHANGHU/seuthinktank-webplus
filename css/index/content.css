@@ -1,6 +1,6 @@
 .thinktank-1-container, .thinktank-2-container, .thinktank-3-container, .thinktank-4-container, .thinktank-5-container {
     width: 1200px;
-    /* height: 100px; */
+    height: 745px;
     margin: 0 auto;
     /* background-color: rgba(0, 0, 0, 0.4); */
     font-size: 0;
@@ -9,25 +9,29 @@
 /* ************************************************** */
 
 .activities-box, .theory-research-box, .cultural-media-research-box, .architectural-planning-box, .public-health-box {
-    display: inline-block;
-    /* float: left; */
-    width: 24%;
+    float: left;
+    /* width: 24%; */
+    width: 288px;
     /* background-color: #F01A02; */
     border-right: solid rgba(32, 122, 10, 0.705) 2px;
 }
 
 .media-published-box, .silkroad-box, .regional-economy-box, .cyberspace-box, .world-economy-box {
-    display: inline-block;
-    /* float: left; */
-    width: 37%;
-    left: 1%;
+    float: left;
+    /* width: 37%; */
+    width: 444px;
+    /* background-color: rgb(12, 79, 110); */
+    /* left: 1%; */
+    left: 12px;
 }
 
 .report-box, .international-box, .artificial-intelligence-box, .global-cure-box, .information-technology-box {
-    display: inline-block;
-    /* float: left; */
-    width: 37%;
-    left: 2%;
+    float: left;
+    /* width: 37%; */
+    width: 444px;
+    /* background-color: rgb(119, 172, 76); */
+    /* left: 2%; */
+    left: 24px;
 }
 
 /* ************************************************** */
@@ -37,7 +41,6 @@
     height: 60px;
     /* background-color: rgba(0, 0, 0, 0.4); */
     font-size: 0;
-    margin-bottom: 10px;
 }
 
 .thinktank-2-container .title-box, .thinktank-3-container .title-box, .thinktank-4-container .title-box, .thinktank-5-container .title-box {
@@ -58,17 +61,18 @@
     float: left;
     width: 20%;
     height: 100%;
-    line-height: 78px;
+    line-height: 60px;
     text-align: right;
     box-sizing: border-box;
     padding-right: 10px;
+    font-size: 12pt;
 }
 
-.more a {
+.more a span {
     color: rgb(12, 22, 116);
 }
 
-.more a:hover {
+.more a:hover span {
     color: rgb(126, 9, 9);
     text-decoration: underline;
 }
@@ -86,16 +90,7 @@
 .side-card {
     width: 100%;
     box-sizing: border-box;
-    border-bottom: solid rgba(208, 240, 212, 0.774) 1px;
     margin-top: 10px;
-}
-
-.side-card:nth-child(n+2) {
-    margin-top: 10px;
-}
-
-.side-card:nth-last-child(1) {
-    border-bottom: solid #666 0px;
 }
 
 .side-img-box {
@@ -120,9 +115,12 @@
     padding: 0 10px;
 }
 
-.side-title-box a {
+.side-title-box a:nth-child(2) {
+    display: inline-block;
+    height: 100%;
     font-size: 11pt;
     font-weight: bold;
+    line-height: 20px;
     color: rgb(31, 30, 30);
 }
 
@@ -216,4 +214,10 @@
     color: #7C7C7C;
     font-size: 9pt;
     line-height: 20px;
+}
+
+/* ****************************************** */
+
+.panel{
+    float: left;
 }

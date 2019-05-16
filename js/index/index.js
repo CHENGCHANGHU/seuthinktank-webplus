@@ -4,11 +4,15 @@ $(function () {
     // loadMainContent('mediaPublishedMainCardBox', mediaPublished);
     // loadMainContent('reportMainCardBox', thinkTankReprort);
 
-    $('.side-card').eq(0).css("margin-top", 0);
+
     console.log($('.side-card').length);
     for (var i = 0; i < $('.side-card').length; i++) {
         if (i % 3 != 2) {
             $('.side-card').eq(i).css("border-bottom", "solid rgba(208, 240, 212, 0.774) 1px");
+        }
+
+        if (i % 3 == 0) {
+            $('.side-card').eq(i).css("margin-top", 0);
         }
     }
 
@@ -37,11 +41,11 @@ $(function () {
 
     console.log($('.activities-box').outerHeight());
 
-    $('.thinktank-1-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
-    $('.thinktank-2-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
-    $('.thinktank-3-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
-    $('.thinktank-4-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
-    $('.thinktank-5-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
+    // $('.thinktank-1-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
+    // $('.thinktank-2-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
+    // $('.thinktank-3-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
+    // $('.thinktank-4-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
+    // $('.thinktank-5-container').eq(0).css('height', $('.activities-box').outerHeight() + 'px');
 
 
     var sideCadrBoxHeight = $('.side-card-box').outerHeight();
