@@ -21,7 +21,7 @@
 .cooperation-exchange-box {
     float: left;
     width: 38%;
-    left: 2%;
+    /* left: 2%; */
     /* background-color: rgba(92, 12, 12, 0.4); */
 }
 
@@ -109,7 +109,7 @@
 .coo-img-box {
     display: block;
     width: 100%;
-    height: 240px;
+    height: 220px;
 }
 
 .coo-img-box img {
@@ -120,48 +120,57 @@
 .coo-title {
     position: absolute;
     display: block;
-    width: 90%;
+    width: 94%;
     box-sizing: border-box;
     padding: 0 10px;
     height: 25px;
-    background-color: rgba(255, 255, 255, 0.7);
-    top: 65%;
-    left: 5%;
+    background-color: rgba(86, 95, 86, 0.7);
+    bottom: 40px;
+    left: 3%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .coo-title a {
-    color: #333;
+    color: #fff;
     font-weight: bold;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 .coo-title a:hover {
-    color: rgb(107, 51, 51);
+    color: rgb(243, 53, 53);
 }
 
 .coo-detail {
     position: absolute;
     display: inline-block;
-    width: 90%;
+    width: 94%;
     box-sizing: border-box;
     padding: 0 10px;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.7);
-    top: 25px;
-    left: 5%;
+    height: 60px;
+    background-color: rgba(86, 95, 86, 0.7);
+    bottom: -20px;
+    left: 3%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .coo-detail span {
+}
+
+.coo-detail span a {
+    color: #ddd;
     line-height: 20px;
-    font-size: 9pt;
-    color: rgb(85, 85, 85);
+    font-size: 6pt;
 }
 
 /* **************************************************** */
 
 .partner-label-box {
     float: left;
-    width: 30%;
+    /* width: 30%; */
+    width: 1200px;
+    height: 120px;
     background-color: rgba(189, 196, 196, 0.747);
 }
 
@@ -194,4 +203,46 @@
 .partner-label a:hover {
     text-decoration: underline;
     color: rgb(107, 51, 51);
+}
+
+/* ********************************** */
+
+.scholar-card-box {
+    float: left;
+    width: 720px;
+    height: 515px;
+}
+
+.scholar-card {
+    width: 90px;
+    height: 110px;
+}
+
+.scholar-img {
+    width: 90px;
+    height: 90px;
+}
+
+.scholar-name {
+    width: 90px;
+    height: 20px;
+}
+
+.coo-card-box {
+    float: left;
+    width: 456px;
+    height: 515px;
+}
+
+.coo-card {
+    box-sizing: border-box;
+    float: left;
+    width: 236px;
+    height: 220px;
+}
+
+/* *********************************************** */
+
+.partner-label-box tr{
+    display: inline;
 }

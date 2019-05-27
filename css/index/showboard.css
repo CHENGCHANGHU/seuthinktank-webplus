@@ -124,17 +124,21 @@
 
 .qrcode_box {
     float: left;
-    width: 10%;
-    /* left: 10%; */
-    height: 100%;
+    width: 120px;
+    height: 560px;
 }
 
 .qrcode_inner_box {
-    width: 80%;
-    left: 10%;
+    width: 96px;
+    left: 12px;
     /* background-color: rgba(100, 100, 200, 0.4); */
     margin-top: 10px;
     font-size: 0;
+}
+
+.qrcode_inner_box img {
+    width: 96px;
+    height: 96px;
 }
 
 .qrcode_img {
@@ -150,4 +154,78 @@
     text-align: center;
     font-size: 11pt;
     /* background-color: red; */
+}
+
+/* ******************************************* */
+
+.cycle-imgs-container div:nth-child(1) div:nth-child(1) {
+    float: left;
+}
+
+.dtjt9_div_text {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.dtjt9_div_text .dtjt9_div_text_title {
+    left: 2%;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: left;
+}
+
+.dtjt9_div_text .dtjt9_div_text_title a {
+    background-color: rgba(0, 0, 0, 0);
+    display: inline;
+    line-height: 40px;
+    color: #fff;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+.dtjt9_div_img .number {
+    z-index: 1000;
+    position: absolute;
+    bottom: 15px;
+}
+
+.dtjt9_div_img .number .nomal {
+    width: 10px;
+    height: 10px;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+    opacity: 0.7;
+    background: #6C6D6E;
+    float: left;
+    color: #FFF;
+    margin-right: 5px;
+    border: 0px solid #FFF;
+    font-size: 12px;
+    TEXT-DECORATION: none;
+    border-radius: 10px;
+}
+
+.dtjt9_div_img .number .current {
+    width: 10px;
+    height: 10px;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+    opacity: 0.7;
+    background: red;
+    float: left;
+    color: #FFF;
+    margin-right: 5px;
+    border: 0px solid #FFF;
+    font-size: 12px;
+    TEXT-DECORATION: none;
+    border-radius: 10px;
 }

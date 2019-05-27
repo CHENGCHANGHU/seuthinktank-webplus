@@ -19,10 +19,10 @@
     <script type="text/javascript" src="/_upload/tpl/07/ec/2028/template2028/./js/index/data.js"></script>
     <script type="text/javascript" src="/_upload/tpl/07/ec/2028/template2028/./js/index/index.js"></script>
     <script type="text/javascript" src="/_upload/tpl/07/ec/2028/template2028/./js/general/nav.js"></script>
-    <script type="text/javascript" src="/_upload/tpl/07/ec/2028/template2028/./js/index/cycleimgs.js"></script>
+    <!-- <script type="text/javascript" src="/_upload/tpl/07/ec/2028/template2028/./js/index/cycleimgs.js"></script> -->
 </head>
 
-<body class="clearfloat">
+<body>
 
     <!-- 导航栏 -->
     <div class="nax-box">
@@ -61,44 +61,51 @@
 
     <!-- 轮播图  -->
     <div class="cycle-imgs-box">
-        <div class="cycle-imgs-container">
-            <div class="cycle_img_box">
-                <div class="img_box" id='imgBox'>
-                    <!-- <img class="_c" src="/_upload/tpl/07/ec/2028/template2028/./imgs/index/seusenery.jpg" />
-                    <img class="_c" src="/_upload/tpl/07/ec/2028/template2028/./imgs/index/senery2.jpg" />
-                    <img class="_c" src="/_upload/tpl/07/ec/2028/template2028/./imgs/index/senery3.jpg" />
-                    <img class="_c" src="/_upload/tpl/07/ec/2028/template2028/./imgs/index/senery4.jpg" />
-                    <img class="_c" src="/_upload/tpl/07/ec/2028/template2028/./imgs/index/senery5.jpg" />
-                    <img class="_c" src="/_upload/tpl/07/ec/2028/template2028/./imgs/index/senery6.jpg" /> -->
-                </div>
-                <!-- <span class="btn_left_box">&lsaquo;</span>
-                        <span class="btn_right_box">&rsaquo;</span> -->
+        <div class="cycle-imgs-container" frag="面板1">
+            <div frag="窗口1">
+                <div class="cycle_img_box" frag="窗口内容">
+                    <div class="img_box" id='imgBox'>
+                        {缩略图}
+                    </div>
 
-                <span class="btn_left_box"><img
-                        src="/_upload/tpl/07/ec/2028/template2028/./images/index/left2.png" /></span>
-                <span class="btn_right_box"><img
-                        src="/_upload/tpl/07/ec/2028/template2028/./images/index/right2.png" /></span>
-                <div class="img_title">
-                    <span class="time" id="time">【2019-03-23】</span>
-                    <span class="title" id='title'>
-                        <a href="javascript:void(0)">杨伟国讲座实录：有人叫我“终结者”，因为我预言数字革命将带来雇佣的终结</a>
-                    </span>
-                    <div class="bull_box">
-                        <!-- &bull; -->
-                        <!-- <span class="bull"><span></span></span> -->
+                    <span class="btn_left_box"><img
+                            src="/_upload/tpl/07/cf/1999/template1999/./images/index/left2.png" /></span>
+                    <span class="btn_right_box"><img
+                            src="/_upload/tpl/07/cf/1999/template1999/./images/index/right2.png" /></span>
+                    <div class="img_title">
+                        <span class="time" id="time">【{发布时间}】</span>
+                        <span class="title" id='title'>
+                            <a href="javascript:void(0)">{标题}</a>
+                        </span>
+                        <div class="bull_box">
+                        </div>
                     </div>
                 </div>
+                <!-- <div class="qrcode_box">
+                    <div class="qrcode_inner_box">
+                        <img class="qrcode_img" src="/_upload/tpl/07/cf/1999/template1999/./images/index/qrcode1.jpg" />
+                        <span class="qrcode_title">人民日报微信</span>
+                    </div>
+
+                    <div class="qrcode_inner_box">
+                        <img class="qrcode_img" src="/_upload/tpl/07/cf/1999/template1999/./images/index/qrcode2.jpg" />
+                        <span class="qrcode_title">邮件订阅</span>
+                    </div>
+                </div> -->
             </div>
-
-            <div class="qrcode_box">
-                <div class="qrcode_inner_box">
-                    <img class="qrcode_img" src="/_upload/tpl/07/ec/2028/template2028/./images/index/qrcode1.jpg" />
-                    <span class="qrcode_title">人民日报微信</span>
-                </div>
-
-                <div class="qrcode_inner_box">
-                    <img class="qrcode_img" src="/_upload/tpl/07/ec/2028/template2028/./images/index/qrcode2.jpg" />
-                    <span class="qrcode_title">邮件订阅</span>
+            <div class="qrcode_box" frag="窗口112">
+                <div frag="窗口内容">
+                    <!-- [InfoCycleBegin] -->
+                    <div class="qrcode_inner_box">
+                        {内容}
+                        <!-- <img class="qrcode_img" src="/_upload/tpl/07/cf/1999/template1999/./images/index/qrcode1.jpg" /> -->
+                        <span class="qrcode_title">{标题}</span>
+                    </div>
+                    <!-- [InfoCycleEnd] -->
+                    <!-- <div class="qrcode_inner_box">
+                        <img class="qrcode_img" src="/_upload/tpl/07/cf/1999/template1999/./images/index/qrcode2.jpg" />
+                        <span class="qrcode_title">邮件订阅</span>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -106,9 +113,9 @@
     <!-- 轮播图  -->
 
     <!-- 智库活动、媒体发表、智库报告 -->
-    <div class="thinktank-1 clearfloat">
-        <div class="thinktank-1-container clearfloat" frag="面板11">
-            <div class="activities-box clearfloat" frag="窗口11">
+    <div class="thinktank-1 ">
+        <div class="thinktank-1-container " frag="面板11">
+            <div class="activities-box " frag="窗口11">
                 <div class="title-box">
                     <span class="content-title">智库活动</span>
                     <span class="more" frag="按钮" type="更多"><span frag="按钮内容">更多</span></span>
@@ -135,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="media-published-box clearfloat" frag="窗口12">
+            <div class="media-published-box " frag="窗口12">
                 <div class="title-box">
                     <span class="content-title">媒体发表</span>
                     <span class="more" frag="按钮" type="更多"><span frag="按钮内容">更多</span></span>
@@ -162,7 +169,7 @@
                 </div>
             </div>
 
-            <div class="report-box clearfloat" frag="窗口13">
+            <div class="report-box " frag="窗口13">
                 <div class="title-box">
                     <span class="content-title">智库报告</span>
                     <span class="more" frag="按钮" type="更多"><span frag="按钮内容">更多</span></span>
@@ -526,56 +533,49 @@
 
     <!-- 专家学者、合作交流 -->
     <div class="scholar-cooperation-box">
-        <div class="scholar-cooperation-container">
-            <div class="expert-scholar-box">
+        <div class="scholar-cooperation-container" frag="面板6">
+            <div class="expert-scholar-box" frag="窗口61">
                 <div class="title-box">
                     <span class="content-title">专家学者</span>
-                    <span class="more sch-title"><a href="javascript:void(0)">更多</a></span>
+                    <!-- <span class="more sch-title"><a href="javascript:void(0)">更多</a></span> -->
                 </div>
-                <div class="scholar-card-box">
-                    <div class="left-card-box" id="leftCardBox">
-                        <!-- <div class="scholar-card">
-                            <span class="scholar-img">
-                                <img src="/_upload/tpl/07/ec/2028/template2028/./imgs/index/scholar1.jpg" />
-                            </span>
-                            <span class="scholar-name"><a href='javascript:void(0)'>Hinton</a></span>
-                        </div> -->
+                <div class="scholar-card-box" frag="窗口内容">
+                    <!-- [InfoCycleBegin] -->
+                    <div class="scholar-card">
+                        <span class="scholar-img">
+                            {缩略图}
+                            <!-- <img src="/_upload/tpl/07/ec/2028/template2028/./imgs/index/scholar1.jpg" /> -->
+                        </span>
+                        <span class="scholar-name"><a href='javascript:void(0)'>{标题}</a></span>
+                    </div>
+                    <!-- [InfoCycleEnd] -->
+                    <!-- <div class="left-card-box" id="leftCardBox">                        
                     </div>
                     <div class="right-card-box" id="rightCardBox">
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
-            <div class="cooperation-exchange-box">
+            <div class="cooperation-exchange-box" frag="窗口62">
                 <div class="title-box">
                     <span class="content-title">合作交流</span>
                     <!-- <span class="more sch-title"><a href="javascript:void(0)">更多</a></span> -->
                 </div>
-                <div class="coo-card-box">
+                <div class="coo-card-box" frag="窗口内容">
+                    <!-- [InfoCycleBegin] -->
                     <div class="coo-card">
                         <span class="coo-img-box">
-                            <img src="/_upload/tpl/07/ec/2028/template2028/./images/index/nj1.jpg" />
+                            {缩略图}
+                            <!-- <img src="/_upload/tpl/07/ec/2028/template2028/./images/index/nj1.jpg" /> -->
                         </span>
                         <span class="coo-title">
-                            <a href='javascript:void(0)'>南京眼位于江苏省南京市建邺区河西新城青奥轴线中轴</a>
+                            <a href='javascript:void(0)'>{标题}</a>
                         </span>
                         <span class="coo-detail"><span>
-                                位于江苏省南京市建邺区河西新城青奥轴线，跨越南京长江夹江，起点位于南京青奥文化体育公园内，终点在江心洲青年森林公园内...
+                                {简介}
                             </span></span>
                     </div>
-
-                    <div class="coo-card">
-                        <span class="coo-img-box">
-                            <img src="/_upload/tpl/07/ec/2028/template2028/./images/index/nj2.jpg" />
-                        </span>
-                        <span class="coo-title">
-                            <a href='javascript:void(0)'>南京眼位于江苏省南京市建邺区河西新城青奥轴线中轴</a>
-                        </span>
-                        <span class="coo-detail">
-                            <span>
-                                位于江苏省南京市建邺区河西新城青奥轴线，跨越南京长江夹江，起点位于南京青奥文化体育公园内，终点在江心洲青年森林公园内...
-                            </span></span>
-                    </div>
+                    <!-- [InfoCycleEnd] -->
                 </div>
             </div>
         </div>
@@ -584,19 +584,26 @@
 
     <!-- 合作伙伴 -->
     <div class="partner-box">
-        <div class="partner-container">
-            <div class="title-box">
-                <span class="content-title">合作交流</span>
-                <!-- <span class="more sch-title"><a href="javascript:void(0)">更多</a></span> -->
-            </div>
-            <div class='partner-label-box' id='partnerLabelBox1'>
-                <!-- <span class="partner-label"><a href="javascript:void(0)">光明网</a></span> -->
-            </div>
-            <div class='partner-label-box' id='partnerLabelBox2'>
-                <!-- <span class="partner-label"><a href="javascript:void(0)">光明网</a></span> -->
+        <div class="partner-container" frag="面板7">
+            <div frag="窗口7">
+
+
+                <div class="title-box">
+                    <span class="content-title">合作伙伴</span>
+                    <!-- <span class="more sch-title"><a href="javascript:void(0)">更多</a></span> -->
+                </div>
+                <div class='partner-label-box' id='partnerLabelBox1'>
+                    <div frag="窗口内容">
+                        <!-- [InfoCycleBegin] -->
+                        <span class="partner-label">{标题}</span>
+                        <!-- [InfoCycleEnd] -->
+                    </div>
+                    <!-- <span class="partner-label"><a href="javascript:void(0)">光明网</a></span> -->
+                </div>
+                <!-- <div class='partner-label-box' id='partnerLabelBox2'>
             </div>
             <div class='partner-label-box' id='partnerLabelBox3'>
-                <!-- <span class="partner-label"><a href="javascript:void(0)">光明网</a></span> -->
+            </div> -->
             </div>
         </div>
     </div>
@@ -604,26 +611,38 @@
 
     <!-- 版权栏 -->
     <div class="copyright">
-        <div class="copyright_container">
-            <div class="col1_box">
-                <span class="copyright_label">
-                    Copyright &copy; Southeast University E-mail:master@seu.edu.cn
-                </span>
-                <span class="copyright_label">
-                    苏ICP备10088665号
-                </span>
-                <span class="copyright_label">
-                    公安备案号：32010202010062
-                </span>
+        <div class="copyright_container" frag="面板8">
+            <div class="col1_box" frag="窗口81">
+                <div frag="窗口内容">
+                    <!-- [InfoCycleBegin] -->
+                    {内容}
+                    <!-- <span class="copyright_label">
+                        Copyright &copy; Southeast University E-mail:master@seu.edu.cn
+                    </span>
+                    <span class="copyright_label">
+                        苏ICP备10088665号
+                    </span>
+                    <span class="copyright_label">
+                        公安备案号：32010202010062
+                    </span> -->
+                    <!-- [InfoCycleEnd] -->
+                </div>
             </div>
 
-            <div class="forward_box">
-                <div class="icon_box">
-                    <img src="/_upload/tpl/07/ec/2028/template2028/./images/index/blog.png" />
-                </div>
+            <div class="forward_box" frag="窗口82">
+                <div frag="窗口内容">
+                    <!-- [InfoCycleBegin] -->
+                    <div class="icon_box">
+                        <div class="icon">{图片}
+                            <div class="hide_qrcode">{内容}</div>
+                        </div>
+                        <!-- <img src="/_upload/tpl/07/ec/2028/template2028/./images/index/blog.png" /> -->
+                    </div>
 
-                <div class="icon_box">
-                    <img src="/_upload/tpl/07/ec/2028/template2028/./images/index/wechat.png" />
+                    <!-- <div class="icon_box">
+                        <img src="/_upload/tpl/07/ec/2028/template2028/./images/index/wechat.png" />
+                    </div> -->
+                    <!-- [InfoCycleEnd] -->
                 </div>
             </div>
         </div>

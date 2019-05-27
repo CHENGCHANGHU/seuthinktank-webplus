@@ -16,28 +16,45 @@ $(function () {
         }
     }
 
-    loadSideContent('TT2SideCardBox', theoryResearch);
-    loadMainContent('silkRoadMainCardBox', silkroad);
-    loadMainContent('internationalMainCardBox', mediaPublished);
+    console.log("w1imgNumber a length:" + $("#w1imgNumber").children().length);
+    console.log(":" + $(".number .nomal").length);
 
-    loadSideContent('TT3SideCardBox', activityObjects);
-    loadMainContent('regionalEconomyMainCardBox', mediaPublished);
-    loadMainContent('AIMainCardBox', mediaPublished);
+    console.log($(".scholar-card").length);
+    for (var i = 6; i < $(".scholar-card").length; i++) {
+        $(".scholar-card").eq(i).css("margin-top", "20px");
+    }
 
-    loadSideContent('TT4SideCardBox', activityObjects);
-    loadMainContent('cyberspaceMainCardBox', mediaPublished);
-    loadMainContent('globalCureMainCardBox', mediaPublished);
+    for (var i = 0; i < $(".coo-card").length; i++) {
+        if (i % 2 == 1)
+            $(".coo-card").eq(i).css("margin-left", "16px");
+    }
 
-    loadSideContent('TT5SideCardBox', activityObjects);
-    loadMainContent('worldEconomyMainCardBox', mediaPublished);
-    loadMainContent('ITMainCardBox', mediaPublished);
+    for (var i = 2; i < $(".coo-card").length; i++) {
+        $(".coo-card").eq(i).css("margin-top", "40px");
+    }
 
-    loadScholar('leftCardBox', scholar);
-    loadScholar('rightCardBox', scholar);
+    // loadSideContent('TT2SideCardBox', theoryResearch);
+    // loadMainContent('silkRoadMainCardBox', silkroad);
+    // loadMainContent('internationalMainCardBox', mediaPublished);
 
-    loadPartners('partnerLabelBox1', partners);
-    loadPartners('partnerLabelBox2', partners);
-    loadPartners('partnerLabelBox3', partners);
+    // loadSideContent('TT3SideCardBox', activityObjects);
+    // loadMainContent('regionalEconomyMainCardBox', mediaPublished);
+    // loadMainContent('AIMainCardBox', mediaPublished);
+
+    // loadSideContent('TT4SideCardBox', activityObjects);
+    // loadMainContent('cyberspaceMainCardBox', mediaPublished);
+    // loadMainContent('globalCureMainCardBox', mediaPublished);
+
+    // loadSideContent('TT5SideCardBox', activityObjects);
+    // loadMainContent('worldEconomyMainCardBox', mediaPublished);
+    // loadMainContent('ITMainCardBox', mediaPublished);
+
+    // loadScholar('leftCardBox', scholar);
+    // loadScholar('rightCardBox', scholar);
+
+    // loadPartners('partnerLabelBox1', partners);
+    // loadPartners('partnerLabelBox2', partners);
+    // loadPartners('partnerLabelBox3', partners);
 
     console.log($('.activities-box').outerHeight());
 
@@ -59,11 +76,11 @@ $(function () {
     $('.main-card:nth-child(2n)').css('margin-top',
         sideCadrBoxHeight - mainCardBoxHeight + 'px');
 
-    $('.coo-card').eq(1).css('margin-top',
-        $('.expert-scholar-box').outerHeight() - $('.cooperation-exchange-box').outerHeight() + 'px');
+    // $('.coo-card').eq(1).css('margin-top',
+    //     $('.expert-scholar-box').outerHeight() - $('.cooperation-exchange-box').outerHeight() + 'px');
 
     console.log('---------' + $('.coo-title').css('top'));
-    $('.coo-detail').css('top', 25 + parseInt($('.coo-title').css('top').split('px')[0]) + 'px');
+    // $('.coo-detail').css('top', 25 + parseInt($('.coo-title').css('top').split('px')[0]) + 'px');
 
     function loadSideContent(id, objects) {
         for (var i = 0; i < objects.length; i++) {
