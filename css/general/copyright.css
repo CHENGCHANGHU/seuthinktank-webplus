@@ -60,9 +60,9 @@
 
 .icon_box img {
     width: 50%;
-    /* left: 25%; */
+    left: 25%;
     height: 50%;
-    /* top: 25%; */
+    top: 25%;
     cursor: pointer;
 }
 
@@ -77,8 +77,11 @@
 }
 
 .icon img {
+    position: absolute;
     width: 45px;
     height: 45px;
+    top: 22.5px;
+    left: 22.5px;
 }
 
 .icon:hover .hide_qrcode {

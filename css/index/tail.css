@@ -124,7 +124,7 @@
     box-sizing: border-box;
     padding: 0 10px;
     height: 25px;
-    background-color: rgba(86, 95, 86, 0.7);
+    background-color: rgba(225, 228, 225, 0.7);
     bottom: 40px;
     left: 3%;
     border-top-left-radius: 5px;
@@ -132,7 +132,7 @@
 }
 
 .coo-title a {
-    color: #fff;
+    color: #333;
     font-weight: bold;
     font-size: 10pt;
 }
@@ -148,7 +148,7 @@
     box-sizing: border-box;
     padding: 0 10px;
     height: 60px;
-    background-color: rgba(86, 95, 86, 0.7);
+    background-color: rgba(225, 228, 225, 0.7);
     bottom: -20px;
     left: 3%;
     border-bottom-left-radius: 5px;
@@ -159,7 +159,7 @@
 }
 
 .coo-detail span a {
-    color: #ddd;
+    color: #444;
     line-height: 20px;
     font-size: 6pt;
 }
@@ -179,7 +179,7 @@
 }
 
 .partner-label-box:nth-child(3n+2) {
-    left: 2.5%;
+    /* left: 2.5%; */
 }
 
 .partner-label-box:nth-child(3n+1) {
