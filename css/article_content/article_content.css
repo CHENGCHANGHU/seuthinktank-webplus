@@ -126,7 +126,7 @@ body {
     text-align: left;
     margin-top: 10px;
     font-size: 14px;
-    color: #6A6A6A;
+    color: #a4a4a4;
 }
 .article_info{
     float: left;
@@ -137,11 +137,11 @@ body {
 .article_time{
     float: left;
     font-size: 13px;
-    color: #6A6A6A;
+    color: #a4a4a4;
 }
 .article_from{
     font-size: 13px;
-    color: #6A6A6A;
+    color: #a4a4a4;
 }
 .article_size,.article_from{
     float: left;
@@ -193,4 +193,42 @@ p{
 }
 .wp_articlecontent{
 
+}
+.scholar_box{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.scholar_name{
+    float: left;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.scholar_title{
+    float: left;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.scholar_title_content{
+    float: left;
+    font-size: 15px;
+}
+.scholar_img_box{
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: #2D797F;
+
+}
+.scholar_img_box img{
+    width: 100%;
+    height: 100%;
+}
+.wp_articlecontent p {
+    text-indent:40px;
+    line-height:130%;
+    letter-spacing:2px;
+    padding-top:15px;
 }

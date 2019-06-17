@@ -3,9 +3,9 @@
     margin: 0;
     position: relative;
     font-family: "微软雅黑";
-    font-size: 12pt;
+    /* font-size: 12pt; */
     /* font-weight: normal; */
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 
 li, a {
@@ -41,10 +41,18 @@ body {
     /* background-color: rgba(94, 184, 52, 0.89); */
 }
 
+.scholars-window{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .copyright {
     float: left;
     width: 100%;
     font-size: 0px;
     margin-top: 30px;
     background-color: rgb(34, 44, 29);
+    /* position: fixed;
+    bottom: 0; */
 }
+

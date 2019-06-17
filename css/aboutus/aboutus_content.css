@@ -1,0 +1,146 @@
+.content_container {
+    width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    /*border: 2px solid #31402a;*/
+    border-left: 2px solid #d0d0d0;
+    border-right: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+    padding: 5px;
+}
+/*位置栏目*/
+.content_locationbox {
+   /* float:left;*/
+    display: inline-block;
+    height: 25px;
+    width: 100%;
+    margin: 3px 3px 8px 3px;
+    padding: 1px 2px 2px 2px;
+}
+
+.location_front {
+    display: inline-block;
+    height: 100%;
+    font-size: 15pt;
+    font-weight: bolder;
+    color: #e30000;
+}
+.horizontal{
+    height: 3px;
+    background: #000000;
+}
+.content_newsbox {
+    /*float:left;*/
+    display: inline-block;
+    width: 1080px;
+    margin:10px 5px 10px 5px;
+    border: 2px solid #d0d0d0;
+}
+
+/*左边*/
+.content_menubox{
+    float:left;
+    height: 100%;
+    width: 250px;
+    margin: 5px 3px 8px 3px;
+    /*border: 2px solid #ff0000;*/
+}
+.menu_title{
+    height: 100%;
+    margin:5px 5px 5px 5px;
+    padding-left: 20px;
+    width:210px;
+    color: #353535;
+}
+.titleli{
+    width: 100%;
+    border-bottom: 2px solid #31402a;
+    padding-left: 5px;
+    display: block;
+}
+.titleli a{
+    height: 30px;
+    width:200px;
+    line-height: 30px;
+    color: #333333;
+    text-decoration:none
+}
+
+.menu_title ul li{
+    width: 100%;
+    border-bottom: 2px solid #31402a;
+    padding-left: 5px;
+    display: block;
+}
+
+.menu_title ul li a{
+    height: 30px;
+    width:200px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 5px;
+    color: #333333;
+    text-decoration:none;
+    text-align: left!important;
+}
+/*右边*/
+.content_messagebox{
+    float:left;
+    height: 100%;
+    width: 780px;
+    margin: 5px 3px 1px 20px;
+    /*border: 2px solid #ee0000;*/
+    border-left: 3px solid #31402a;
+}
+
+.content_message{
+    width:100%;
+    padding-left:20px;
+    padding-right: 5px;
+}
+/*详情*/
+.mess_contentbox{
+    width:99%;
+    margin-top: 7px;
+    padding-left: 3px;
+    min-height: 350px;
+    font-size: 5px;
+}
+
+/*
+!*头部*!
+.mess_headbox{
+    display: inline-block;
+    width:770px;
+    height: 32px;
+    line-height: 30px;
+    margin-top: 3px;
+    margin-right: 5px;
+    border-bottom: 2px solid #d0d0d0;
+    !*border: 2px solid #000000;*!
+}
+
+.mess_title h2{
+    display: inline-block;
+    height: 30px;
+    width:200px;
+    line-height: 30px;
+    font-size: 15px;
+    !*border: 2px solid #e30000;*!
+}
+
+.mess_path{
+    display: inline-block;
+    float:right;
+    height: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    line-height: 18px;
+    font-size: 5px;
+    !*border: 2px solid #31402a;*!
+    color: #353535;
+}
+*/
+
+/*详情*/

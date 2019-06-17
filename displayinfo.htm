@@ -13,8 +13,6 @@
     <link href="css/general/copyright.css" rel="stylesheet" type="text/css"/>
     <link href="css/general/global.css" rel="stylesheet" type="text/css"/>
     <link href="css/general/nav.css" rel="stylesheet" type="text/css"/>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
     <!--<script type="text/javascript" src="./js/article_content/article_content.js"></script>-->
     <script type="text/javascript" src="./js/general/nav.js"></script>
@@ -28,34 +26,40 @@
         <div class="nav-container" frag="面板01">
             <div class="top-title-box" frag="窗口01">
                 <div class="logo-box">
-                    <img src="./images/index/logo.png" />
+                    <!-- <img src="./images/index/logo.png" /> -->
+                    <img src="./images/index/seu.jpg" />
+                    <div class="logo-text">
+                        <span class="logo-ch">东大智库</span>
+                        <span class="logo-en">SEU ThinkTank</span>
+                    </div>
+                    <div class="logo-label-box">
+                        <span class="logo-label">全球视野</span>
+                        <span class="logo-label">中国情怀</span>
+                        <span class="logo-label">学术研究</span>
+                        <span class="logo-label">决策参考</span>
+                    </div>
                 </div>
-                <div class="thinktank-box">
-                    <span class="thinktank">东南大学智库</span></div>
-                <div class="breif-intro-box">
-                    <span class="breif-intro">全球视野</span>
-                    <span class="breif-intro">中国情怀</span>
-                    <span class="breif-intro">学术研究</span>
-                    <span class="breif-intro">决策参考</span>
+
+                <div class="top-news-box">
+                    <div frag="窗口内容">
+                        <!-- <span class="hot-news"><a>点穴时事风云东方智库半年度国际形势闭门论坛举行</a></span> -->
+                        <!-- [InfoCycleBegin] -->
+                        <span class="hot-news"><a>{标题}</a></span>
+                        <!-- [InfoCycleEnd] -->
+                    </div>
                 </div>
             </div>
             <span class="split-line"></span>
             <div class="bottom-link-box" frag="窗口02">
                 <ul class="link_title_container" frag="窗口内容">
-                    <li class="link_title"><a href="/index.html">首页</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">智库活动</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">智库报告</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">媒体发表</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">专家学者</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">国际交流</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">欢迎加入</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">招聘实习</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">关于我们</a></li>
-                    <li class="link_title"><a href="javascript:void(0)">联系我们</a></li>
                 </ul>
+                <span class="search-box">
+                    <img src="./images/index/search1.png" />
+                </span>
             </div>
         </div>
     </div>
+<!-- 导航栏 -->
     <div style="width: 100%;text-align: center">
         <div class="main_box" id="main_box">
             <article class="left_article" >
@@ -74,13 +78,14 @@
                             <div frag="窗口内容">{发布部门}</div>
                         </div>
                     </div>
-                </div>
-                <div style="float: left;width: 100%" frag="面板32">
-                    <div style="width: 100%;float: left;height: 40px" frag="窗口32">
-                        <div style="float: left;color: #a4a4a4;font-size: 10pt;margin-top: 10px;margin-right: 15px">分享到:</div>
+               <div style="float: left;width: 50%;margin-left:20px" frag="面板32">
+                    <div style="width: 100%;float: left;height: 30px;margin-top:21px" frag="窗口32">
+                        <div style="float: left;color: #a4a4a4;font-size: 14px;margin-top: 10px;margin-right: 15px;">分享到:</div>
                         <div frag="窗口内容"></div>
                     </div>
                 </div>
+                </div>
+ 
                 <div class="article_info" frag="面板5">
                     <div class="article_time" frag="窗口5" portletmode="simpleArticleAttri">
                         <div frag="窗口内容">{发布时间}</div>
@@ -118,7 +123,7 @@
                 <div style="float: left;margin-top: 40px;width: 100%" >
                     <div style="float: left;width: 100%" frag="面板10">
                         <div style="float: left;width: 100%" frag="窗口10">
-                            <div style="font-size: 15pt;font-weight: bolder;text-align: left" frag="标题"><span frag="标题内容">作者相关</span></div>
+                            <div style="font-size: 15pt;font-weight: bolder;text-align: left" frag="标题" title="最热新闻">     <span frag="标题内容">作者相关</span></div>
                             <div style="float: left;width: 100%" frag="窗口内容">
                                 <!--[InfoCycleBegin]-->
                                 <div style="float: left;width: 100%;margin-top: 10px" >
@@ -131,8 +136,8 @@
                     </div>
 
                     <div style="width: 100%;float:left;" frag="面板9">
-                        <div style="width: 100%;margin-top: 30px;float: left" frag="窗口9">
-                            <div style="font-size: 15pt;font-weight: bolder;text-align: left;margin-bottom: 15px" frag="标题"><span frag="标题内容">相关推荐</span></div>
+                        <div style="width: 100%;float: left" frag="窗口9">
+                            <div style="font-size: 15pt;font-weight: bolder;text-align: left;margin-bottom: 15px" frag="标题" title="相关推荐">    <span frag="标题内容">相关推荐</span></div>
                             <div frag="窗口内容" style="width: 100%;float: left">
                                 <!--[InfoCycleBegin]-->
                                 <span class="new_now" >
@@ -160,7 +165,7 @@
                         <hr style="width: 100%;height: 2px;float: left;background-color: #588ed4">
                         <div class="right_title_border" >
                             <div class="right_title" frag="窗口内容">栏目位置</div>
-                            <div class="right_more" frag="按钮" type="更多"><span frag="按钮内容">更多</span></div>
+                            <div class="right_more" frag="按钮" type="更多" visible="false">  <span frag="按钮内容">更多</span></div>
                         </div>
                     </div>
                 </div>
@@ -182,19 +187,17 @@
                     </div>
 
                 </div>
-
-                <div id="fixPara" style="float: left;width: 100%">
-                    <hr style="width: 100%;height: 2px;margin-top: 20px;float: left;background-color: #588ed4">
-                    <div class="right_title_border">
-                        <div class="right_title">专家学者</div>
-                        <div class="right_more">更多</div>
-                    </div>
-                    <div style="width: 100%" id="right_title_vue_1">
-                        <div class="sp_card"  v-for="title_object in right_author_name">
-                            <div class="sp_img_box">
-                                <img src="./images/article_content/scholar.jpg"/>
+                <div id="fixPara" style="float: left;width: 100%" frag="面板40">
+                    <div style="float: left;width: 100%" frag="窗口40" portletmode="simpleList">
+                        <hr style="width: 100%;height: 2px;margin-top: 20px;float: left;background-color: #588ed4">
+                        <div class="right_title_border">
+                            <div class="right_title" frag="标题"><div frag="标题内容">专家学者</div></div>
+                            <!--<div class="right_more">更多</div>-->
+                        </div>
+                        <div style="width: 100%" id="right_title_vue_1" frag="窗口内容">
+                            <div class="sp_card">
+                                <span class="spd_title" style="font-size: 14px">{标题}</span>
                             </div>
-                            <span class="spd_title">{{title_object['name']}}</span>
                         </div>
                     </div>
                 </div>

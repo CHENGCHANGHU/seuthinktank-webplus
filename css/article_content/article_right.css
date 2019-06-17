@@ -68,30 +68,15 @@
      float: left;
 }
 #right_title_vue_1{
-    margin-top: 20px;
+    margin-top: 10px;
     float: left;
 }
 .sp_card {
     float: left;
-    width: 28%;
-    height: 80px;
+    width: 100%;
+    text-align: center;
     /* background-color: rgba(124, 255, 0, 0.4); */
-    /* margin-top: 15px; */
-}
-.sp_card:nth-child(3n-2) {
-    /* left: 2.5%; */
-}
-
-.sp_card:nth-child(3n-1) {
-    left: 8%;
-}
-
-.sp_card:nth-child(3n) {
-    left: 16%;
-}
-
-.sp_card:nth-child(n+4) {
-    margin-top: 38.5px;
+     margin-top: 15px;
 }
 .sp_img_box {
     display: inline-block;
@@ -113,7 +98,7 @@
     height: 100%;
     float: left;
 }
-.right_title_border .Column_Name{
+.right_title_border .Column_Anchor{
     font-size: 20px;
     font-weight: bolder;
     float: left;
@@ -122,3 +107,4 @@
     float: left;
     color: #588ed4;
 }
+

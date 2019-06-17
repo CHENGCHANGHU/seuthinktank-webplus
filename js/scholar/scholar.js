@@ -18,18 +18,28 @@ $(function () {
     $(".navitem").css("margin", "0 " +
         ($(".navitem_box").eq(0).outerWidth() - navItem_widthes) / 22 + "px");
 
-    for (i = 0; i < 20; i++) {
 
-        $(".scolars_container").append(
-            "<div class=\"scolar_card\">" +
-            "<div class=\"img_box\">" +
-            "<img src=\"./imgs/index/scholar" + ((i % 3) + 1) + ".jpg\" /></div>" +
-            "+<div class=\"breifintro_box\">" +
-            "<span class=\"name\">程泰宁</span>" +
-            "<span class=\"position\">东南大学教授</span>" +
-            "<span class=\"introduction\">建筑学家，中国工程院院士，东南大学教授，东南大学建筑理论与设计中心主任 [1] ，中国联合工程公司总建筑师</span>" +
-            "</div></div>"
-        );
+    console.log('window).height():' + $(window).height());
+    console.log("$('.nax-box').eq(0).height():" + $('.nax-box').eq(0).outerHeight());
+    console.log("$('.scolars').eq(0).height():" + $('.scolars').eq(0).outerHeight());
+    console.log("$('.copyright').eq(0).height():" + $('.copyright').eq(0).outerHeight());
+
+    if ($(window).height() > $('.nax-box').eq(0).outerHeight() + $('.scolars').eq(0).outerHeight() + $('.copyright').eq(0).outerHeight()) {
+        $('.scolars').eq(0).css('height', $(window).height() - 60 - $('.nax-box').eq(0).outerHeight() - $('.copyright').eq(0).outerHeight() + 'px');
     }
+
+    // for (i = 0; i < 20; i++) {
+
+    //     $(".scolars_container").append(
+    //         "<div class=\"scolar_card\">" +
+    //         "<div class=\"img_box\">" +
+    //         "<img src=\"./imgs/index/scholar" + ((i % 3) + 1) + ".jpg\" /></div>" +
+    //         "+<div class=\"breifintro_box\">" +
+    //         "<span class=\"name\">程泰宁</span>" +
+    //         "<span class=\"position\">东南大学教授</span>" +
+    //         "<span class=\"introduction\">建筑学家，中国工程院院士，东南大学教授，东南大学建筑理论与设计中心主任 [1] ，中国联合工程公司总建筑师</span>" +
+    //         "</div></div>"
+    //     );
+    // }
 
 });
